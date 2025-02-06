@@ -1,0 +1,13 @@
+windo normal zo
+only
+
+set vicmd="\"/Program Files/Git/usr/bin/vim.exe\""
+
+set timefmt=" %Y/%m/%d %H:%M:%S"
+set statusline="  %t  [%T]%= %A %10u:%-7g %15s %20d [%a free]"
+set viewcolumns=-60%{name}..,-{ext},10{size},21{mtime}
+set sizefmt=units:iec,precision:3
+
+set relativenumber
+set number
+
