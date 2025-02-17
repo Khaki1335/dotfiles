@@ -1,2 +1,6 @@
 files/.vifm/*
 !files/.vifm/vifmrc
+files/.vim/*
+files/.vim/autoload/*
+!files/.vim/autoload/
+!files/.vim/autoload/plug.vim
