@@ -1,7 +1,7 @@
 windo normal zo
 only
 
-set vicmd="\"/Program Files/Git/usr/bin/vim.exe\""
+set vicmd=vim
 
 set timefmt=" %Y/%m/%d %H:%M:%S"
 set statusline="  %t  [%T]%= %A %10u:%-7g %15s %20d [%a free]"
