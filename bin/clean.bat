@@ -17,7 +17,7 @@ for %%a in (.??*) do (
 for /d %%a in (.??*) do (
   set "target=%USERPROFILE%\%%a"
   if exist "!target!" (
-    rd "!target!"
+    rd /S /Q "!target!"
     echo Deleted "!target!".
   )
 )
@@ -25,3 +25,5 @@ for /d %%a in (.??*) do (
 popd
 
 endlocal
+
+call %~dp0..\config\.vscode\bin\clean.bat

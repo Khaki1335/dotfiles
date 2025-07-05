@@ -1,0 +1,141 @@
+{
+    "[java]": {
+        "editor.insertSpaces": false
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "cSpell.enabledFileTypes": {
+        "*": true
+    },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {},
+    "editor.folding": false,
+    "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        100
+    ],
+    "editor.wordWrap": "on",
+    "errorLens.messageBackgroundMode": "message",
+    "eslint.codeActionsOnSave.rules": null,
+    "files.autoGuessEncoding": true,
+    "files.trimFinalNewlines": true,
+    "git.autofetch": true,
+    "git.suggestSmartCommit": false,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "java.autobuild.enabled": false,
+    "java.completion.favoriteStaticMembers": [
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "java.help.showReleaseNotes": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "sqltools.disableNodeDetectNotifications": true,
+    "sqltools.disableReleaseNotifications": true,
+    "sqltools.useNodeRuntime": true,
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "j"
+            ]
+        },
+    ],
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "p"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<Esc>",
+                "<Esc>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ],
+            "before": [
+                "x"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.customMenuBarAltFocus": false,
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "none",
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.startupEditor": "none"
+}

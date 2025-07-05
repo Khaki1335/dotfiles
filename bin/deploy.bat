@@ -31,3 +31,5 @@ for /d %%a in (.??*) do (
 popd
 
 endlocal
+
+call %~dp0..\config\.vscode\bin\deploy.bat
