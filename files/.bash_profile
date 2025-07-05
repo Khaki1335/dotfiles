@@ -6,6 +6,6 @@ test -f ~/.profile && . ~/.profile
 test -f ~/.bashrc && . ~/.bashrc
 test -f ~/.bashrc.local && . ~/.bashrc.local
 
-if [ "$SHLVL" -eq 1 ] && command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+if [ "$SHLVL" -eq 1 ] && command -v tmux &> /dev/null && [ -z "$TMUX" ] && [ -z "$SSH_CLIENT" ]; then
     tmux
 fi
