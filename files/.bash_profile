@@ -1,6 +1,8 @@
 export LANG=en_US.UTF-8
 export EDITOR=vim
 
+export LESS="-i -R -M"
+
 test -f ~/.bash_profile.local && . ~/.bash_profile.local
 test -f ~/.profile && . ~/.profile
 test -f ~/.bashrc && . ~/.bashrc
