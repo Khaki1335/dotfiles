@@ -133,6 +133,7 @@
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "none",
+    "window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${profileName}${separator}${appName}",
     "workbench.colorTheme": "Default Dark Modern",
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.editor.empty.hint": "hidden",
