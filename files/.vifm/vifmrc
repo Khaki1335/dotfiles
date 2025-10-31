@@ -10,4 +10,6 @@ set sizefmt=units:iec,precision:3
 
 set relativenumber
 set number
+set ignorecase
+set smartcase
 
