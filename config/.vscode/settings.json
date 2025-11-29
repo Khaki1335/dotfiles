@@ -135,7 +135,7 @@
     "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "none",
     "window.title": "${rootName}${separator}${dirty}${activeEditorShort}${separator}${profileName}${separator}${appName}",
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "One Monokai",
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "file-icons-colourless",
