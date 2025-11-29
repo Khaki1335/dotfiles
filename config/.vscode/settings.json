@@ -15,6 +15,7 @@
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": {},
+    "editor.cursorBlinking": "solid",
     "editor.folding": false,
     "editor.fontFamily": "Myrica M, Consolas, 'Courier New', monospace",
     "editor.lineNumbers": "relative",
