@@ -22,3 +22,32 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+if [ -n "$WSL_DISTRO_NAME" ]; then
+    wpf() {
+        local cmd=$1
+        local port=${2:-3333}
+        local wsl_ip=$(hostname -I | awk '{print $1}')
+
+        case "$cmd" in
+            add)
+                echo "Adding forwarding: Windows:${port} -> WSL:${wsl_ip}:${port}"
+                powershell.exe -Command "Start-Process powershell -ArgumentList \"netsh interface portproxy add v4tov4 listenport=$port listenaddress=0.0.0.0 connectport=$port connectaddress=$wsl_ip\" -Verb RunAs"
+                ;;
+            remove|del|delete)
+                echo "Removing forwarding for port ${port}..."
+                powershell.exe -Command "Start-Process powershell -ArgumentList \"netsh interface portproxy delete v4tov4 listenport=$port listenaddress=0.0.0.0\" -Verb RunAs"
+                ;;
+            list|ls|show)
+                powershell.exe -Command "netsh interface portproxy show all"
+                ;;
+            *)
+                echo "Usage: wpf {add|remove|list} [port]"
+                return 1
+                ;;
+        esac
+    }
+fi
+
+# OpenCode functions (Loaded only if installed in this environment)
+[ -f "$HOME/.config/opencode/shell.sh" ] && . "$HOME/.config/opencode/shell.sh"
