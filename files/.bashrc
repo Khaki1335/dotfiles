@@ -49,5 +49,3 @@ if [ -n "$WSL_DISTRO_NAME" ]; then
     }
 fi
 
-# OpenCode functions (Loaded only if installed in this environment)
-[ -f "$HOME/.config/opencode/shell.sh" ] && . "$HOME/.config/opencode/shell.sh"
